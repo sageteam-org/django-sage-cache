@@ -14,5 +14,8 @@ setup(
     keywords=['django', 'python', 'cache', 'SQL', 'queryset'],
     install_requires=[
         'Django',
+        'django-filters',
+        'djangorestframework',
+        'cryptography'
     ]
 )

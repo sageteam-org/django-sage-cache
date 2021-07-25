@@ -1,2 +1,4 @@
 Django>=3.2.3
 setuptools>=56.2.0
+django-filter==2.4.0
+djangorestframework==3.12.4
