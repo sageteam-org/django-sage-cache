@@ -124,3 +124,7 @@ jwt-key.pub
 
 kernel/
 manage.py
+
+ecommerce/
+docs/sage_painless/
+product_diagram.json

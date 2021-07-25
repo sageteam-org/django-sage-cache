@@ -1,5 +1,9 @@
 from django.conf import settings
 
+if not settings.CACHES.get('default').get('BACKEND') == "django_redis.cache.RedisCache":
+    raise ConnectionError('redis cache config not found in settings please add these lines to your settings\n'
+                          'CACHES = {"default": {"BACKEND": "django_redis.cache.RedisCache","LOCATION": "redis://localhost:6379"}}')
+
 CACHE_PER_USER_TIMEOUT_FUNC = getattr(
     settings, 'CACHE_PER_USER_TIMEOUT_FUNC',
     'sage_cache.services.timeout_funcs.default_timeout'
