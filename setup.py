@@ -16,6 +16,7 @@ setup(
         'Django',
         'django-filters',
         'djangorestframework',
-        'cryptography'
+        'cryptography',
+        'django-redis'
     ]
 )
