@@ -1,5 +1,16 @@
 # Django Sage Cache
-#### django-sage-cache is a package based on Django Web Framework & Django Rest Framework for queryset/page caching.
+
+## What is django-sage-cache package?
+
+django-sage-cache is a great package for caching data in the Django framework. In this package, an attempt has been made to use both private and shared caching techniques. Note that data caching is done at the database level. This is to reduce the number of queries to the database. The database we used to cache the data in this framework is called Redis.
+
+### What is HTTP caching?
+
+Caching is a technique that stores a copy of a given resource and serves it back when requested. When a web cache has a requested resource in its store, it intercepts the request and returns its copy instead of re-downloading from the originating server. This achieves several goals: it eases the server's load that doesn’t need to serve all clients itself, and it improves performance by being closer to the client, i.e., it takes less time to transmit the resource back.
+
+### What is Redis?
+
+Redis is an in-memory data structure store, used as a distributed, in-memory key-value database, cache, and message broker, with optional durability.
 
 ##### The Latest version of [django-sage-cache](https://django-sage-cache.readthedocs.io/) documentation
 
