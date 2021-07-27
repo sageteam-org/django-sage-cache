@@ -1,0 +1,1 @@
+include sage_cache/templates/sage_cache/*.html
