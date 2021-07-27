@@ -3,12 +3,12 @@
 
 | Name                          | Role                     | Status                     | Email                      |
 | ----------------------------- |:------------------------:|:--------------------------:|:--------------------------:|
-| Sepehr Akbarzadeh             | Team Lead                |  In-Progress               |  sepehr@gmail.com          |
+| Sepehr Akbarzadeh             | Team Lead                |  In-Progress               |  a.goldeneagle@gmail.com          |
 | Mehran Rahmanzadeh            | Developer                |  In-Progress               |  mrhnz13@gmail.com         |
 
 A big THANK-YOU goes to:
 
-    SageTeam for letting us open-source [project name].
+    SageTeam for letting us open-source django-sage-painless.
 
     Guido van Rossum for creating Python.
 

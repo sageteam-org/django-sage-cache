@@ -6,7 +6,7 @@ setup(
     long_description_content_type='text/markdown',
     packages=find_packages(exclude=['tests*']),
     include_package_data=True,
-    version='0.1.0',
+    version='0.1.1',
     license='GNU',
     description='queryset caching for Django',
     author='Sage Team',
